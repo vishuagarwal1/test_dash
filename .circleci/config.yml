@@ -3,8 +3,8 @@ jobs:
     docker:
       - image: cimg/base:2022.06
         auth:
-          username: testvishu
-          password: lolISHUuhsi123*  # context / project UI env-var reference
+          username: vishu13
+          password: ISHUuhsi123*  # context / project UI env-var reference
     steps:
       # ... steps for building/testing app ...
       - setup_remote_docker:
