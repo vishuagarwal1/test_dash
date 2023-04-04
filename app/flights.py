@@ -39,7 +39,7 @@ app.layout = dbc.Container([
         dbc.Col([
             html.Span([
                     html.I(className='fa-solid fa-plane-departure'),
-                " Number of Passangers between European countries 2019-2021 ",
+                " [This test is successful it seems!!!] Number of Passangers between European countries 2019-2021 ",
                 html.I(className="fa-solid fa-plane-departure")], className='h2')
     ], width=10)
     ], justify='center', className='my-2'),
