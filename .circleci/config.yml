@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: cimg/base:2022.06
+      - image: docker:latest
         auth:
           username: vishu13
           password: $ISHUuhsi123*  # context / project UI env-var reference
