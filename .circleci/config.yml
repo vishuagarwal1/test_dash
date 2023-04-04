@@ -9,10 +9,11 @@ jobs:
       # ... steps for building/testing app ...
       - setup_remote_docker:
           version: 20.10.14
-
-run:
+      - checkout 
+      - run:
           name: Build and push Docker image
           command: |
             docker build -t vishu13/test_dash_image .
-            docker login --username --password
-            docker push vishu13/test_dash_iamge
+            docker login --username  --password 
+            docker push vishu13/test_dash_image
+
