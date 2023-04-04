@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: docker:latest1
+      - image: docker:latest
        
     steps:
       # ... steps for building/testing app ...
