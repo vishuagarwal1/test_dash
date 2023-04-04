@@ -8,7 +8,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.LUMEN, dbc.icons.FONT_AWES
 server = app.server
 
 # our data
-df = pd.read_csv('https://raw.githubusercontent.com/Coding-with-Adam/Dash-by-Plotly/master/Analytic_Web_Apps/Flights_Analysis/europe-flights-reduced.csv')
+df = pd.read_csv('europe-flights-reduced.csv')
 df['YEAR'] = df['YEAR'].astype(str)
 
 # create datatable
