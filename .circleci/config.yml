@@ -15,4 +15,4 @@ jobs:
             docker build -t vishu13/test_dash_image .
             docker images
             docker login --username vishu13 --password dckr_pat_vRT_2eumOvMZf7zqjZBXoFUzOMo
-            docker push vishu13/test_dash_image
+            
