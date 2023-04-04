@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: docker:latest
-    dockerfile: /Dockerfile
+    dockerfile: Dockerfile
        
     steps:
       # ... steps for building/testing app ...
