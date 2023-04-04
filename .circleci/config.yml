@@ -1,7 +1,9 @@
 jobs:
+  
   build:
     docker:
       - image: docker:latest
+    dockerfile: /Dockerfile
        
     steps:
       # ... steps for building/testing app ...
