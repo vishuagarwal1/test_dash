@@ -4,7 +4,7 @@ jobs:
       - image: docker:latest
         auth:
           username: vishu13
-          password: $ISHUuhsi123*  # context / project UI env-var reference
+          password: dckr_pat_vRT_2eumOvMZf7zqjZBXoFUzOMo  # context / project UI env-var reference
     steps:
       # ... steps for building/testing app ...
       - setup_remote_docker:
@@ -15,4 +15,3 @@ jobs:
             docker build -t vishu13/test_dash_image .
             docker login --username  --password 
             docker push vishu13/test_dash_image
-
